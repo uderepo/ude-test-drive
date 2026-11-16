@@ -3,6 +3,7 @@ import { ThemeContext } from '../../shared/theme/model/context/context';
 
 export default function ScreenContact() {
   const theme = useContext(ThemeContext);
+  const variable = 'test var';
   return (
     <div
       style={{

@@ -1,6 +1,9 @@
 import { createContext } from 'react';
 
-/** Тема приложения: значения читаются компонентами экранов. */
+/**
+ * Тема приложения: удобные имена для компонентов экранов. Значений здесь нет —
+ * только ссылки на CSS-переменные; значение живёт в `tokens.css` и больше нигде.
+ */
 export interface Theme {
   sys: {
     surface: string;
@@ -12,10 +15,10 @@ export interface Theme {
 
 export const theme: Theme = {
   sys: {
-    surface: '#ffffff',
-    onSurface: '#0f172a',
-    primary: '#3b82f6',
-    onPrimary: '#ffffff',
+    surface: 'var(--sys-surface)',
+    onSurface: 'var(--sys-on-surface)',
+    primary: 'var(--sys-primary)',
+    onPrimary: 'var(--sys-on-primary)',
   },
 };
 

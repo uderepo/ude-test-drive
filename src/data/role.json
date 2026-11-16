@@ -1,0 +1,18 @@
+[
+  {
+    "id": "id-role-designer-model2",
+    "name": "Designer"
+  },
+  {
+    "id": "id-role-sales-manager-model2",
+    "name": "Sales Manager"
+  },
+  {
+    "id": "id-role-developer-model2",
+    "name": "Developer"
+  },
+  {
+    "id": "id-role-marketer-model2",
+    "name": "Marketer"
+  }
+]

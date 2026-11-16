@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "collections": [
+    {
+      "id": "model0",
+      "name": "default",
+      "label": "Default Model"
+    },
+    {
+      "id": "model1",
+      "name": "member",
+      "label": "Member"
+    },
+    {
+      "id": "model2",
+      "name": "role",
+      "label": "Role"
+    }
+  ],
+  "fields": [
+    {
+      "id": "fieldId-model0-name",
+      "collectionId": "model0",
+      "name": "name",
+      "label": "Name",
+      "type": "text",
+      "isRequired": true
+    },
+    {
+      "id": "fieldId-model1-name",
+      "collectionId": "model1",
+      "name": "name",
+      "label": "Name",
+      "type": "text",
+      "isRequired": true
+    },
+    {
+      "id": "fieldId-model1-email",
+      "collectionId": "model1",
+      "name": "email",
+      "label": "Email",
+      "type": "text",
+      "isRequired": true
+    },
+    {
+      "id": "fieldId-model1-role",
+      "collectionId": "model1",
+      "name": "role",
+      "label": "Role",
+      "type": "reference",
+      "isRequired": true,
+      "settings": {
+        "refModelId": "model2",
+        "refDisplayField": "name"
+      }
+    },
+    {
+      "id": "fieldId-model1-slug",
+      "collectionId": "model1",
+      "name": "slug",
+      "label": "Slug",
+      "type": "text",
+      "isRequired": true
+    },
+    {
+      "id": "fieldId-model1-createdAt",
+      "collectionId": "model1",
+      "name": "createdAt",
+      "label": "Created",
+      "type": "dateTime"
+    },
+    {
+      "id": "fieldId-model1-avatar",
+      "collectionId": "model1",
+      "name": "avatar",
+      "label": "Avatar",
+      "type": "image"
+    },
+    {
+      "id": "fieldId-model1-updatedAt",
+      "collectionId": "model1",
+      "name": "updatedAt",
+      "label": "Updated",
+      "type": "dateTime"
+    },
+    {
+      "id": "fieldId-model2-name",
+      "collectionId": "model2",
+      "name": "name",
+      "label": "Name",
+      "type": "text",
+      "isRequired": true
+    },
+    {
+      "id": "fieldId-model2-createdAt",
+      "collectionId": "model2",
+      "name": "createdAt",
+      "label": "Created",
+      "type": "dateTime"
+    },
+    {
+      "id": "fieldId-model2-updatedAt",
+      "collectionId": "model2",
+      "name": "updatedAt",
+      "label": "Updated",
+      "type": "dateTime"
+    }
+  ],
+  "layout": {}
+}

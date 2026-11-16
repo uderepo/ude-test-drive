@@ -18,7 +18,10 @@ export default function ScreenHome() {
         color: theme?.sys?.onSurface ?? '#0f172a',
       }}
     >
-      <h1 style={{ fontSize: '28px', fontWeight: '700' }}>Home</h1>
+      <h1 style={{
+        fontSize: '28px',
+        fontWeight: '700'
+      }}>Home</h1>
       <p style={{ fontSize: '14px', lineHeight: '20px' }}>Landing screen of the sample project. Edit text, layout and fill from the editor.</p>
       <button
         style={{
@@ -30,6 +33,7 @@ export default function ScreenHome() {
           cursor: 'pointer',
           fontSize: '14px',
           fontWeight: '600',
+          width: 'max-content'
         }}
       >
         Get started

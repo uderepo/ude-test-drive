@@ -59,5 +59,12 @@
   },
   "workspaceProject": {
     "projectId": "proj_EcoIHFxCJymVBYFbdW8Qew"
+  },
+  "sourceCode": {
+    "mode": "remote-git",
+    "remoteRepoUrl": "https://github.com/uderepo/test-project-for-ude"
+  },
+  "canvas": {
+    "wrapper": ".ude/canvas-wrapper.tsx"
   }
 }

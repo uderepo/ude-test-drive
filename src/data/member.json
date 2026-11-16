@@ -1,0 +1,30 @@
+[
+  {
+    "id": "id-member-1-model1",
+    "name": "Darrell Steward",
+    "email": "darrell.steward@example.com",
+    "role": "id-role-designer-model2",
+    "avatar": "/src/shared/assets/dummy/abstract.jpg"
+  },
+  {
+    "id": "id-member-2-model1",
+    "name": "Bessie Cooper",
+    "email": "bessie.cooper@example.com",
+    "role": "id-role-sales-manager-model2",
+    "avatar": "/src/shared/assets/dummy/chris-nguyen-aTX_bRaOZnA-unsplash.jpg"
+  },
+  {
+    "id": "id-member-3-model1",
+    "name": "Annette Black",
+    "email": "annette.black@example.com",
+    "role": "id-role-developer-model2",
+    "avatar": "/src/shared/assets/dummy/martin-blaszkiewicz-kMeQ3zam1ac-unsplash.jpg"
+  },
+  {
+    "id": "id-member-4-model1",
+    "name": "Jacob Jones",
+    "email": "jacob.jones@example.com",
+    "role": "id-role-developer-model2",
+    "avatar": "/src/shared/assets/dummy/steven-binotto-0X0ecI9uDTM-unsplash.jpg"
+  }
+]

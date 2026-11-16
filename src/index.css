@@ -1,2 +1,15 @@
 * { box-sizing: border-box; }
 body { margin: 0; font-family: system-ui, -apple-system, sans-serif; }
+
+.hidden { display: none; }
+.hide-me { display: none; }
+
+@media (min-width: 768px) {
+  .hide-from-md { display: none; }
+}
+
+.fill-hover-only:hover { background-color: #fee2e2; }
+.fill-card { background-color: #ffffff; border: 1px solid #e2e8f0; }
+.fill-card:hover { background-color: #fee2e2; }
+.fill-button { background-color: #3b82f6; color: #ffffff; }
+.fill-button:disabled { background-color: #d1d5db; }

@@ -1,0 +1,4 @@
+.ts-rule { color: var(--sys-primary); }
+.ts-card { --sys-primary: rgb(0, 128, 0); }
+.ts-own { --sys-primary: rgb(128, 0, 128); color: var(--sys-primary); }
+.ts-surface { color: var(--sys-on-surface); }
